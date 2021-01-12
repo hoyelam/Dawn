@@ -160,7 +160,7 @@ function pagination() {
             hideNav: '.pagination',
             history: false,
             path: '.pagination .older-posts',
-            scrollThreshold: false,
+            scrollThreshold: true,
             status: '.infinite-scroll-status',
         });
     }
